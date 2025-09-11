@@ -1,0 +1,45 @@
+Hi, I am run a wholesale watch business, and 'till now I've been writing down orders in a note app and all was fine, but now as the business is slowly growing it's getting quite complicated... 
+anyway, here is what I need in a software system
+
+1-the watch name (this can be multiple words long)
+
+2-watch desc (this should be entered automatically based on the unique watch names)
+
+3-regular retail price (RRP) [this should also be entered automatically.]
+
+4-status (I need to know if I have it in stock, in store at the retailer, sold and not paid for, sold and paid for, or RETURNED [this is very important so that I know with watches Don't sell]) [when the status is "in stock", then all the following columns are empty.]
+
+5-store name (the name of the store [and since a Chane store can have many locations I want the city to be included in the name always]. the name of the manager does not matter, and I don't bother keeping track of that)
+
+6-store address (should be entered automatically for old costumers)
+
+7-store phone number (I never have more than 1 number per store), (should be entered automatically for old costumers)
+
+8-store Email (should be entered automatically for old costumers)
+
+9-date delivered (when the watch was delivered to the store.)
+
+10-price (this can vary on the store, and even the same store can have different prices on the same watch [for example, when I start of in a new location I can charge less and later more]) anyway I don't like when prices are put in automatically. 
+ 
+sample data 
+1.-the old fashioned chronograph watch. 2.-gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band. 3.-100$. 4.-in stock. 5.-empty. 6.-empty 7.-empty 8.-empty. 9.-empty 10.-empty
+1.-the yellow hybrid watch. 2.-hybrid watch, steal case and wrist band, two color band, shows day of week, date. 3.-100$. 4.-delivered. 5.-The Watch Collection(phoenix). 6.-123 Hullo Plaza phoenix Arizona. 7.-347-666-9898.  8.-Management@TWC.com. 9.-09/12/2023. 10.-50$
+1.-the yellow hybrid watch. 2.-hybrid watch, steal case and wrist band, two color band, shows day of week, date. 3.-100$. 4.-sold.      5.-The Watch Collection(phoenix). 6.-123 Hullo Plaza phoenix Arizona. 7.-347-666-9898.  8.-Management@TWC.com. 9.-09/12/2023. 10.-50$
+1.-the self winding magnificent watch. 2.-gold plated case, black leather band, day of week dial, 12 hour dial, day and night dial, self winding. 3.-150$. 4.-returned. 5.-The Watch Collection(phoenix). 6.-123 Hullo Plaza phoenix Arizona. 7.-347-666-9898.  8.-Management@TWC.com. 9.-09/26/2023. 10.-80$
+1.-the black coffee watch. 2.--silver plated case, black leather band, day of week dial, 12 hour dial, month dial, black watch face, self winding, open back. 3.-200$. 4.-paid. 5.-The Watch Auction House(Lancaster PA). 6.-34 Greco ct. Lancaster PA. 7.-424-575-8890. 8.-TWAH@gmail.com. 9.-07/12/2020. 10.-90$
+             
+Questions.
+
+Q:don't you want to record the price you paid and your profit?
+A:no. I buy batches of 10-15 watches for 300$ and always charge at least 50$. so I know I am making  A profit, but I don't pay a fixed price on A watch.
+
+Q:does status PAID mean that the store sold the watch, and so it needs to be restored, or can it mean you were paid in advance?
+A:no one ever offered to pay in advance, so I only sell by consignment. so "paid" means it must be restored.
+
+Q:don't you want to know when the store sold the watch, so you can see how fast each watch sells?
+A:no. you can't predict what will sell and what won't. and if something sells fast i realize it anyway.
+
+Reports.
+
+1: The Watch Collection(phoenix) needs to be restored, show me a list of all the watches the had and sold (and don't have in stock right now)
+2: The Watch Collection(phoenix) needs to be restored, but say complained that watches with brown leather bands don't sell, and just take up space on his limited display, I need a list of all watches in stock that DON"T have BROWN leather bands.
