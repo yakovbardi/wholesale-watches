@@ -41,5 +41,5 @@ A:no. you can't predict what will sell and what won't. and if something sells fa
 
 Reports.
 
-1: The Watch Collection(phoenix) needs to be restored, show me a list of all the watches the had and sold (and don't have in stock right now)
-2: The Watch Collection(phoenix) needs to be restored, but say complained that watches with brown leather bands don't sell, and just take up space on his limited display, I need a list of all watches in stock that DON"T have BROWN leather bands.
+1: The Watch Collection(phoenix) needs to be restored, show me a list of all the watches they had and sold (and don't have in stock right now)
+2: The Watch Collection(phoenix) needs to be restored, but they complained that watches with brown leather bands don't sell, and just take up space on his limited display, I need a list of all watches in stock that DON'T have BROWN leather bands.
