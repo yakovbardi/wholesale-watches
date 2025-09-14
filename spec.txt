@@ -1,21 +1,21 @@
-Hi, I am run a wholesale watch business, and 'till now I've been writing down orders in a note app and all was fine, but now as the business is slowly growing it's getting quite complicated... 
+Hi, I run a wholesale watch business, and 'till now I've been writing down orders in a note app and all was fine, but now as the business is slowly growing it's getting quite complicated... 
 anyway, here is what I need in a software system
 
-1-the watch name (this can be multiple words long)
+1-watch name (this can be multiple words long. [this column should only allow watch names to be entered, if they where preveusly saved into the system, together with there descriptions and there RRP.])
 
-2-watch desc (this should be entered automatically based on the unique watch names)
+2-watch desc (this should be a defuelt column, meaning that when "watch name" (column 1) is entered as "the old fashioned chronograph watch", then this column should auget the tomatically get the "desc" for this watch, wich is "gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band.",)
 
-3-regular retail price (RRP) [this should also be entered automatically.]
+3-regular retail price (RRP) [this should also be entered automatically baesd on the watch name, meaning that since the RRP for "the old fashioned chronograph watch" is allways 100$, when the watch name is entered, this column should be entered by defualt.]
 
-4-status (I need to know if I have it in stock, in store at the retailer, sold and not paid for, sold and paid for, or RETURNED [this is very important so that I know with watches Don't sell]) [when the status is "in stock", then all the following columns are empty.]
+4-status (I need to know if I have it in stock [when the status is "in stock", then all the following columns are empty], or if it is in store at the retailer, or sold and not paid for, sold and paid for, or RETURNED [this is very important so that I know with watches Don't sell]) 
 
-5-store name (the name of the store [and since a Chane store can have many locations I want the city to be included in the name always]. the name of the manager does not matter, and I don't bother keeping track of that)
+5-store name (the name of the store [and since a Chane store can have many locations I need the city to be included in the name always]. this collumn should not allow a new store name to be entered untill the info for column 6-7-8. are set up [to be entered by default, when the "store name" is entered.]
 
-6-store address (should be entered automatically for old costumers)
+6-store address (should be entered automatically for old costumers, meaning that when the "store name is entered, then there addres should be entered by default, based on the "store name" column.)
 
-7-store phone number (I never have more than 1 number per store), (should be entered automatically for old costumers)
+7-store phone number (I never have more than 1 number per store), (should be entered by default for old costumers, based on the "store name" column.)
 
-8-store Email (should be entered automatically for old costumers)
+8-store Email (should be entered automatically for old costumers based on the "store name" column.)
 
 9-date delivered (when the watch was delivered to the store.)
 
