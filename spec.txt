@@ -20,8 +20,10 @@ anyway, here is what I need in a software system
 9-date delivered (when the watch was delivered to the store.)
 
 10-price (this can vary on the store, and even the same store can have different prices on the same watch [for example, when I start of in a new location I can charge less and later more]) anyway I don't like when prices are put in automatically. 
- 
-sample data 
+
+11-order ID (A number/code I can refer to when speaking to custumers, it would be nice if this where to begin with the watch-name and the date ordered and then an ID number.)
+
+SAMPLE DATA:
 1.-the old fashioned chronograph watch. 2.-gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band. 3.-100$. 4.-in stock. 5.-empty. 6.-empty 7.-empty 8.-empty. 9.-empty 10.-empty
 1.-the yellow hybrid watch. 2.-hybrid watch, steal case and wrist band, two color band, shows day of week, date. 3.-100$. 4.-delivered. 5.-The Watch Collection(phoenix). 6.-123 Hullo Plaza phoenix Arizona. 7.-347-666-9898.  8.-Management@TWC.com. 9.-09/12/2023. 10.-50$
 1.-the yellow hybrid watch. 2.-hybrid watch, steal case and wrist band, two color band, shows day of week, date. 3.-100$. 4.-sold.      5.-The Watch Collection(phoenix). 6.-123 Hullo Plaza phoenix Arizona. 7.-347-666-9898.  8.-Management@TWC.com. 9.-09/12/2023. 10.-50$
