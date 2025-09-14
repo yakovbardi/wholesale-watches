@@ -1,15 +1,15 @@
 Hi, I run a wholesale watch business, and 'till now I've been writing down orders in a note app and all was fine, but now as the business is slowly growing it's getting quite complicated... 
 anyway, here is what I need in a software system
 
-1-watch name (this can be multiple words long. [this column should only allow watch names to be entered, if they where preveusly saved into the system, together with there descriptions and there RRP.])
+1-watch name (this can be multiple words long. [this column should only allow watch names to be entered, if they where previously saved into the system, together with there descriptions and there RRP.])
 
-2-watch desc (this should be a defuelt column, meaning that when "watch name" (column 1) is entered as "the old fashioned chronograph watch", then this column should auget the tomatically get the "desc" for this watch, wich is "gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band.",)
+2-watch desc (this should be a default column, meaning that when "watch name" (column 1) is entered as "the old fashioned chronograph watch", then this column should automatically get the "desc" for this watch, which is "gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band.",)
 
-3-regular retail price (RRP) [this should also be entered automatically baesd on the watch name, meaning that since the RRP for "the old fashioned chronograph watch" is allways 100$, when the watch name is entered, this column should be entered by defualt.]
+3-regular retail price (RRP) [this should also be entered automatically based on the watch name, meaning that since the RRP for "the old fashioned chronograph watch" is always 100$, when the watch name is entered, this column should be entered by default.]
 
 4-status (I need to know if I have it in stock [when the status is "in stock", then all the following columns are empty], or if it is in store at the retailer, or sold and not paid for, sold and paid for, or RETURNED [this is very important so that I know with watches Don't sell]) 
 
-5-store name (the name of the store [and since a Chane store can have many locations I need the city to be included in the name always]. this collumn should not allow a new store name to be entered untill the info for column 6-7-8. are set up [to be entered by default, when the "store name" is entered.]
+5-store name (the name of the store [and since a Chane store can have many locations I need the city to be included in the name always]. this column should not allow a new store name to be entered until the info for column 6-7-8. are set up [to be entered by default, when the "store name" is entered.]
 
 6-store address (should be entered automatically for old costumers, meaning that when the "store name is entered, then there addres should be entered by default, based on the "store name" column.)
 
@@ -21,7 +21,7 @@ anyway, here is what I need in a software system
 
 10-price (this can vary on the store, and even the same store can have different prices on the same watch [for example, when I start of in a new location I can charge less and later more]) anyway I don't like when prices are put in automatically. 
 
-11-order ID (A number/code I can refer to when speaking to custumers, it would be nice if this where to begin with the watch-name and the date ordered and then an ID number.)
+11-order ID (A number/code I can refer to when speaking to costumers, it would be nice if this where to begin with the watch-name and the date ordered and then an ID number.)
 
 SAMPLE DATA:
 1.-the old fashioned chronograph watch. 2.-gold finished case, day of week dial, 12 hour dial, day and night dial, brown leather band. 3.-100$. 4.-in stock. 5.-empty. 6.-empty 7.-empty 8.-empty. 9.-empty 10.-empty
